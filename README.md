@@ -1,16 +1,17 @@
 ﻿## AI project - 항공 이미지를 활용한 건물 객체 추출
 
-### :small_orange_diamond:TEAM 3
+### :radio_button:TEAM 3
 - 팀장: 이재웅
 - 팀원: 박태현 임석현 서인규 이정아 임유진
 
-### :small_orange_diamond:Dataset
+### :radio_button:Dataset
 - [Inria Aerial Image Labeling Dataset](https://www.kaggle.com/datasets/huanranye/inria-aerial-image-labeling-dataset/)
   
-### :small_orange_diamond:Data Preprocessing
+### :radio_button:Data Preprocessing
 - Gaussian Blur
 - RandomBrightnessContrast
-  ![dataloaderImg]()
+  
+   <img src="./img/dataloader.png" width="400" />
 <!--
   ```python
     train_transform = A.Compose(
@@ -42,18 +43,17 @@
   ```
   -->
 
-### :small_orange_diamond:Model processing
+### :radio_button:Model processing
 1) Baseline
   - [UNet + convolution filer](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Baseline.ipynb)
   - [UNet + ResNet](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/UnetVanila_UnetResnet_Week13.ipynb)
     
 2) [UNet + EfficientNet for Encoder Backbone](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Unet_efficientnet.ipynb)
+- <img src="./img/effi.png" width="400" />
 
-
-3) [Grid Search + Cross-validation](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/GridsearchCV.ipynb)
-   ![gridSearchImg]()
+4) [Grid Search + Cross-validation](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/GridsearchCV.ipynb)
+- <img src="./img/grid.png" width="800" />
 - Tuning the optimal parameters
-   
     |lr|epoch|batch size|
     |:---:|:---:|:---:|
     |1e-3|50|32|
@@ -64,12 +64,16 @@
 
 5) [Swin Transformer](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Upernet_Swin.ipynb)
 
-### :small_orange_diamond:Performance
+### :radio_button:Performance
 1) IoU performance: Baseline UNet vs. UNet + EfficientNet
-   ![iouImg]()
+   <!--<img src="./img/iou.png" width="600" /> -->
+    |Model|Hyper parameter setting|IoU|
+    |:---:|:---:|:---:|
+    |UNet + Efficient|batch size:16, lr: 1e-4, # of epochs: 100|78.9%|
+    |Baseline UNet|batch size:16, lr: 1e-4, # of epochs: 100|73.5%|
    
 3) Output performance: Vanilla UNet vs. UNet + EfficientNet
-  ![vanillaUImg]()    ![UEffiImg]()
+-  <img src="./img/vanillaU.png" width="200" /> <img src="./img/Ueffi.png" width="200" />
    
 2) [GMAC, GFLOPS](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Flops_Counting.ipynb)
 
