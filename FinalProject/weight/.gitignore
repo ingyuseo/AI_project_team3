@@ -1,2 +1,5 @@
 /unet_effV2_aug_ep100_1e4.pt
 /unet_resnet18.pt
+/upernet_swin.pt
+/eff_m.pt
+/Unet_eff_m_batch16_epoch100.pt
