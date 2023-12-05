@@ -1,0 +1,6 @@
+outs:
+- md5: 2dda2808f021427a1327177ff28d1556
+  size: 97903634
+  isexec: true
+  hash: md5
+  path: unet_resnet18.pt

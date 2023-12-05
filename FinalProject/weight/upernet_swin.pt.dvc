@@ -1,0 +1,5 @@
+outs:
+- md5: 04aa1c5ac9c59bb491f0b215233b8f22
+  size: 239723779
+  hash: md5
+  path: upernet_swin.pt

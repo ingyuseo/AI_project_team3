@@ -1,0 +1,5 @@
+outs:
+- md5: 1c969de597c3a5c7fb4461fc96b7d616
+  size: 221907264
+  hash: md5
+  path: Unet_eff_m_batch16_epoch100.pt

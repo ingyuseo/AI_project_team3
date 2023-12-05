@@ -1,0 +1,6 @@
+outs:
+- md5: d7e24c94c51a1a03da1d207448a8edb3
+  size: 221907264
+  isexec: true
+  hash: md5
+  path: unet_effV2_aug_ep100_1e4.pt
