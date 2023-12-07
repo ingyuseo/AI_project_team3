@@ -10,38 +10,6 @@
 ### :radio_button:Data Preprocessing
 - Gaussian Blur
 - RandomBrightnessContrast
-  
-   <img src="./img/dataloader.png" width="400" />
-<!--
-  ```python
-    train_transform = A.Compose(
-        [
-            A.RandomCrop(384, 384),
-            A.HorizontalFlip(p=0.3),
-            A.VerticalFlip(p=0.3),
-            A.RandomRotate90(p=0.3),
-            A.Transpose(p=0.3),
-            A.RandomBrightnessContrast(p=0.2),
-            A.RandomShadow(shadow_roi=(0, 0, 1, 1), p=0.1),
-    
-            A.OneOf([
-                # A.ElasticTransform(p=1),
-                A.OpticalDistortion(p=1),
-                A.GridDistortion(p=1),
-            ], p=0.1),
-            A.Normalize(),
-            ToTensorV2()
-        ]
-    )
-    test_transform = A.Compose(
-        [
-            A.CenterCrop(384, 384),
-            A.Normalize(),
-            ToTensorV2()
-        ]
-    )
-  ```
-  -->
 
 ### :radio_button:Model processing
 1) Baseline
@@ -49,10 +17,8 @@
   - [UNet + ResNet](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/UnetVanila_UnetResnet_Week13.ipynb)
     
 2) [UNet + EfficientNet for Encoder Backbone](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Unet_efficientnet.ipynb)
-- <img src="./img/effi.png" width="400" />
 
 4) [Grid Search + Cross-validation](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/GridsearchCV.ipynb)
-- <img src="./img/grid.png" width="800" />
 - Tuning the optimal parameters
     |lr|epoch|batch size|
     |:---:|:---:|:---:|
