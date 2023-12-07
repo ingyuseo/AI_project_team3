@@ -10,12 +10,16 @@
 ### :radio_button:Data Preprocessing
 - Gaussian Blur  
   <img src="./img/gaussianBlur.jpg" width="200" />  
+  
 - RandomBrightnessContrast  
   <img src="./img/RBC.jpg" width="200" />  
+  
 - Optical Distortion  
   <img src="./img/distortion.jpg" width="200" />  
+  
 - Flip / Transpose / Rotate  
   <img src="./img/flip.jpg" width="200" />  
+  
   
 ### :radio_button:Model processing
 1) Baseline
