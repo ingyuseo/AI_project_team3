@@ -8,14 +8,14 @@
 - [Inria Aerial Image Labeling Dataset](https://www.kaggle.com/datasets/huanranye/inria-aerial-image-labeling-dataset/)  
   <img src="./img/data1.png" width="200" /> <img src="./img/data2.png" width="200" />
 ### :radio_button:Data Preprocessing
-- Gaussian Blur
-  <img src="./img/gaussianBlur.jpg" width="200" />
-- RandomBrightnessContrast
-  <img src="./img/RBC.jpg" width="200" />
-- Optical Distortion
-  <img src="./img/distortion.jpg" width="200" />
+- Gaussian Blur  
+  <img src="./img/gaussianBlur.jpg" width="200" />  
+- RandomBrightnessContrast  
+  <img src="./img/RBC.jpg" width="200" />  
+- Optical Distortion  
+  <img src="./img/distortion.jpg" width="200" />  
 - Flip / Transpose / Rotate  
-  <img src="./img/flip.jpg" width="200" />
+  <img src="./img/flip.jpg" width="200" />  
   
 ### :radio_button:Model processing
 1) Baseline
