@@ -6,7 +6,7 @@
 
 ### :radio_button:Dataset
 - [Inria Aerial Image Labeling Dataset](https://www.kaggle.com/datasets/huanranye/inria-aerial-image-labeling-dataset/)  
-  <!--<img src="./img/image1.png" width="400" /> --> <!--<img src="./img/image2.png" width="400" /> -->
+  <!--<img src="./img/data1.png" width="400" /> --> <!--<img src="./img/data2.png" width="400" /> -->
 ### :radio_button:Data Preprocessing
 - Gaussian Blur
 - RandomBrightnessContrast
