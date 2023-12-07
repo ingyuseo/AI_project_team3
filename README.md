@@ -10,6 +10,8 @@
 ### :radio_button:Data Preprocessing
 - Gaussian Blur
 - RandomBrightnessContrast
+- Optical Distortion
+- Flip / Transpose / Rotate
 
 ### :radio_button:Model processing
 1) Baseline
