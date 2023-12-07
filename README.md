@@ -38,10 +38,11 @@
     |UNet + Efficient|batch size:16, lr: 1e-4, # of epochs: 100|78.9%|
     |Baseline UNet|batch size:16, lr: 1e-4, # of epochs: 100|73.5%|
    
-3) Output performance: Vanilla UNet vs. UNet + EfficientNet
+2) Output performance: Vanilla UNet vs. UNet + EfficientNet  
   <img src="./img/vanillaU.png" width="200" /> <img src="./img/Ueffi.png" width="200" />
    
-2) [GMAC, GFLOPS](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Flops_Counting.ipynb)
+3) [GMAC, GFLOPS] 
+ (https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Flops_Counting.ipynb)
 
 
 ---
