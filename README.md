@@ -5,8 +5,8 @@
 - 팀원: 박태현 임석현 서인규 이정아 임유진
 
 ### :radio_button:Dataset
-- [Inria Aerial Image Labeling Dataset](https://www.kaggle.com/datasets/huanranye/inria-aerial-image-labeling-dataset/)
-  
+- [Inria Aerial Image Labeling Dataset](https://www.kaggle.com/datasets/huanranye/inria-aerial-image-labeling-dataset/)  
+  <!--<img src="./img/image1.png" width="400" /> --> <!--<img src="./img/image2.png" width="400" /> -->
 ### :radio_button:Data Preprocessing
 - Gaussian Blur
 - RandomBrightnessContrast
