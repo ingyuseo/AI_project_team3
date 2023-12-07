@@ -9,10 +9,14 @@
   <img src="./img/data1.png" width="200" /> <img src="./img/data2.png" width="200" />
 ### :radio_button:Data Preprocessing
 - Gaussian Blur
+  <img src="./img/data1.png" width="200" /> <img src="./img/gaussianBlur.jpg" width="200" />
 - RandomBrightnessContrast
+  <img src="./img/data1.png" width="200" /> <img src="./img/RBC.jpg" width="200" />
 - Optical Distortion
-- Flip / Transpose / Rotate
-
+  <img src="./img/data1.png" width="200" /> <img src="./img/distortion.jpg" width="200" />
+- Flip / Transpose / Rotate  
+  <img src="./img/data1.png" width="200" /> <img src="./img/flip.jpg" width="200" />
+  
 ### :radio_button:Model processing
 1) Baseline
   [UNet + convolution filer](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Baseline.ipynb)
