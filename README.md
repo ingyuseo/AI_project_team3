@@ -13,13 +13,13 @@
 
 ### :radio_button:Model processing
 1) Baseline
-  - [UNet + convolution filer](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Baseline.ipynb)
-  - [UNet + ResNet](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/UnetVanila_UnetResnet_Week13.ipynb)
+  [UNet + convolution filer](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Baseline.ipynb)
+  [UNet + ResNet](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/UnetVanila_UnetResnet_Week13.ipynb)
     
 2) [UNet + EfficientNet for Encoder Backbone](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Unet_efficientnet.ipynb)
 
-4) [Grid Search + Cross-validation](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/GridsearchCV.ipynb)
-- Tuning the optimal parameters
+3) [Grid Search + Cross-validation](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/GridsearchCV.ipynb)
+  Tuning the optimal parameters
     |lr|epoch|batch size|
     |:---:|:---:|:---:|
     |1e-3|50|32|
@@ -39,7 +39,7 @@
     |Baseline UNet|batch size:16, lr: 1e-4, # of epochs: 100|73.5%|
    
 3) Output performance: Vanilla UNet vs. UNet + EfficientNet
--  <img src="./img/vanillaU.png" width="200" /> <img src="./img/Ueffi.png" width="200" />
+  <img src="./img/vanillaU.png" width="200" /> <img src="./img/Ueffi.png" width="200" />
    
 2) [GMAC, GFLOPS](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Flops_Counting.ipynb)
 
