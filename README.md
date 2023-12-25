@@ -5,55 +5,31 @@
 - 팀원: 박태현 임석현 서인규 이정아 임유진
 
 ### :radio_button:Dataset
-- [Inria Aerial Image Labeling Dataset](https://www.kaggle.com/datasets/huanranye/inria-aerial-image-labeling-dataset/)
-  
+- [Inria Aerial Image Labeling Dataset](https://www.kaggle.com/datasets/huanranye/inria-aerial-image-labeling-dataset/)  
+  <img src="./img/data1.png" width="200" /> <img src="./img/data2.png" width="200" />
 ### :radio_button:Data Preprocessing
-- Gaussian Blur
-- RandomBrightnessContrast
+- Gaussian Blur  
+  <img src="./img/gaussianBlur.jpg" width="200" />  
   
-   <img src="./img/dataloader.png" width="400" />
-<!--
-  ```python
-    train_transform = A.Compose(
-        [
-            A.RandomCrop(384, 384),
-            A.HorizontalFlip(p=0.3),
-            A.VerticalFlip(p=0.3),
-            A.RandomRotate90(p=0.3),
-            A.Transpose(p=0.3),
-            A.RandomBrightnessContrast(p=0.2),
-            A.RandomShadow(shadow_roi=(0, 0, 1, 1), p=0.1),
-    
-            A.OneOf([
-                # A.ElasticTransform(p=1),
-                A.OpticalDistortion(p=1),
-                A.GridDistortion(p=1),
-            ], p=0.1),
-            A.Normalize(),
-            ToTensorV2()
-        ]
-    )
-    test_transform = A.Compose(
-        [
-            A.CenterCrop(384, 384),
-            A.Normalize(),
-            ToTensorV2()
-        ]
-    )
-  ```
-  -->
-
+- RandomBrightnessContrast  
+  <img src="./img/RBC.jpg" width="200" />  
+  
+- Optical Distortion  
+  <img src="./img/distortion.jpg" width="200" />  
+  
+- Flip / Transpose / Rotate  
+  <img src="./img/flip.jpg" width="200" />  
+  
+  
 ### :radio_button:Model processing
 1) Baseline
   - [Vanilla UNet](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Baseline.ipynb)
   - [UNet + ResNet](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/UnetVanila_UnetResnet_Week13.ipynb)
-    
-2) [UNet + EfficientNet for Encoder Backbone](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Unet_efficientnet.ipynb)
-- <img src="./img/effi.png" width="400" />
 
-4) [Grid Search + Cross-validation](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/GridsearchCV.ipynb)
-- <img src="./img/grid.png" width="800" />
-- Tuning the optimal parameters
+2) [UNet + EfficientNet for Encoder Backbone](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Unet_efficientnet.ipynb)
+
+3) [Grid Search + Cross-validation](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/GridsearchCV.ipynb)
+  Tuning the optimal parameters
     |lr|epoch|batch size|
     |:---:|:---:|:---:|
     |1e-3|50|32|
@@ -72,10 +48,11 @@
     |UNet + EfficientNet|batch size:16, lr: 1e-4, # of epochs: 100|78.9%|
     |Baseline UNet|batch size:16, lr: 1e-4, # of epochs: 100|73.5%|
    
-3) Output performance: Vanilla UNet vs. UNet + EfficientNet
--  <img src="./img/vanillaU.png" width="200" /> <img src="./img/Ueffi.png" width="200" />
+2) Output performance: Vanilla UNet vs. UNet + EfficientNet  
+  <img src="./img/vanillaU.png" width="200" /> <img src="./img/Ueffi.png" width="200" />
    
-2) [GMAC, GFLOPS](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Flops_Counting.ipynb)
+3) [GMAC, GFLOPS] 
+ (https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Flops_Counting.ipynb)
 
 
 ---
