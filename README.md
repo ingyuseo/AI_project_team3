@@ -23,9 +23,9 @@
   
 ### :radio_button:Model processing
 1) Baseline
-  [UNet + convolution filer](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Baseline.ipynb)
-  [UNet + ResNet](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/UnetVanila_UnetResnet_Week13.ipynb)
-    
+  - [Vanilla UNet](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Baseline.ipynb)
+  - [UNet + ResNet](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/UnetVanila_UnetResnet_Week13.ipynb)
+
 2) [UNet + EfficientNet for Encoder Backbone](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/Unet_efficientnet.ipynb)
 
 3) [Grid Search + Cross-validation](https://github.com/ingyuseo/AI_project_team3/blob/main/FinalProject/code/GridsearchCV.ipynb)
@@ -45,7 +45,7 @@
    <!--<img src="./img/iou.png" width="600" /> -->
     |Model|Hyper parameter setting|IoU|
     |:---:|:---:|:---:|
-    |UNet + Efficient|batch size:16, lr: 1e-4, # of epochs: 100|78.9%|
+    |UNet + EfficientNet|batch size:16, lr: 1e-4, # of epochs: 100|78.9%|
     |Baseline UNet|batch size:16, lr: 1e-4, # of epochs: 100|73.5%|
    
 2) Output performance: Vanilla UNet vs. UNet + EfficientNet  
